@@ -6,3 +6,346 @@ platformio.ini
 .pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Variant/VariantSlot.hpp
 .pio/libdeps/esp12e/PubSubClient/src/PubSubClient.h
 .pio/build/esp12e/idedata.json
+.pio/libdeps/esp12e/Adafruit NeoPixel/.gitignore
+.pio/build/project.checksum
+.pio/build/esp12e/.sconsign39.dblite
+.pio/build/esp12e/firmware.bin
+.pio/build/esp12e/firmware.elf
+.pio/build/esp12e/libFrameworkArduino.a
+.pio/build/esp12e/libFrameworkArduinoVariant.a
+.pio/build/esp12e/FrameworkArduino/abi.cpp.o
+.pio/build/esp12e/FrameworkArduino/aes_unwrap.cpp.o
+.pio/build/esp12e/FrameworkArduino/base64.cpp.o
+.pio/build/esp12e/FrameworkArduino/cbuf.cpp.o
+.pio/build/esp12e/FrameworkArduino/cont_util.cpp.o
+.pio/build/esp12e/FrameworkArduino/cont.S.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_app_entry_noextra4k.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_eboot_command.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_features.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_flash_quirks.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_flash_utils.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_i2s.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_main.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_non32xfer.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_noniso.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_phy.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_postmortem.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_si2c.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_sigma_delta.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_spi_utils.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_timer.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_vm.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_waveform_phase.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_waveform_pwm.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_wiring_analog.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_wiring_digital.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_wiring_pulse.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_wiring_pwm.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_wiring_shift.cpp.o
+.pio/build/esp12e/FrameworkArduino/core_esp8266_wiring.cpp.o
+.pio/build/esp12e/FrameworkArduino/crc32.cpp.o
+.pio/build/esp12e/FrameworkArduino/Crypto.cpp.o
+.pio/build/esp12e/FrameworkArduino/debug.cpp.o
+.pio/build/esp12e/FrameworkArduino/Esp-frag.cpp.o
+.pio/build/esp12e/FrameworkArduino/Esp-version.cpp.o
+.pio/build/esp12e/FrameworkArduino/Esp.cpp.o
+.pio/build/esp12e/FrameworkArduino/exc-c-wrapper-handler.S.o
+.pio/build/esp12e/FrameworkArduino/exc-sethandler.cpp.o
+.pio/build/esp12e/FrameworkArduino/FunctionalInterrupt.cpp.o
+.pio/build/esp12e/FrameworkArduino/gdb_hooks.cpp.o
+.pio/build/esp12e/FrameworkArduino/HardwareSerial.cpp.o
+.pio/build/esp12e/FrameworkArduino/heap.cpp.o
+.pio/build/esp12e/FrameworkArduino/hwdt_app_entry.cpp.o
+.pio/build/esp12e/FrameworkArduino/IPAddress.cpp.o
+.pio/build/esp12e/FrameworkArduino/libc_replacements.cpp.o
+.pio/build/esp12e/FrameworkArduino/LwipDhcpServer-NonOS.cpp.o
+.pio/build/esp12e/FrameworkArduino/LwipDhcpServer.cpp.o
+.pio/build/esp12e/FrameworkArduino/LwipIntf.cpp.o
+.pio/build/esp12e/FrameworkArduino/LwipIntfCB.cpp.o
+.pio/build/esp12e/FrameworkArduino/MD5Builder.cpp.o
+.pio/build/esp12e/FrameworkArduino/mmu_iram.cpp.o
+.pio/build/esp12e/FrameworkArduino/Print.cpp.o
+.pio/build/esp12e/FrameworkArduino/reboot_uart_dwnld.cpp.o
+.pio/build/esp12e/FrameworkArduino/Schedule.cpp.o
+.pio/build/esp12e/FrameworkArduino/spiffs_api.cpp.o
+.pio/build/esp12e/FrameworkArduino/sqrt32.cpp.o
+.pio/build/esp12e/FrameworkArduino/StackThunk.cpp.o
+.pio/build/esp12e/FrameworkArduino/stdlib_noniso.cpp.o
+.pio/build/esp12e/FrameworkArduino/Stream.cpp.o
+.pio/build/esp12e/FrameworkArduino/StreamSend.cpp.o
+.pio/build/esp12e/FrameworkArduino/time.cpp.o
+.pio/build/esp12e/FrameworkArduino/Tone.cpp.o
+.pio/build/esp12e/FrameworkArduino/TypeConversion.cpp.o
+.pio/build/esp12e/FrameworkArduino/uart.cpp.o
+.pio/build/esp12e/FrameworkArduino/Updater.cpp.o
+.pio/build/esp12e/FrameworkArduino/WMath.cpp.o
+.pio/build/esp12e/FrameworkArduino/WString.cpp.o
+.pio/build/esp12e/FrameworkArduino/libb64/cdecode.cpp.o
+.pio/build/esp12e/FrameworkArduino/libb64/cencode.cpp.o
+.pio/build/esp12e/FrameworkArduino/spiffs/spiffs_cache.cpp.o
+.pio/build/esp12e/FrameworkArduino/spiffs/spiffs_check.cpp.o
+.pio/build/esp12e/FrameworkArduino/spiffs/spiffs_gc.cpp.o
+.pio/build/esp12e/FrameworkArduino/spiffs/spiffs_hydrogen.cpp.o
+.pio/build/esp12e/FrameworkArduino/spiffs/spiffs_nucleus.cpp.o
+.pio/build/esp12e/FrameworkArduino/umm_malloc/umm_info.c.o
+.pio/build/esp12e/FrameworkArduino/umm_malloc/umm_integrity.c.o
+.pio/build/esp12e/FrameworkArduino/umm_malloc/umm_local.c.o
+.pio/build/esp12e/FrameworkArduino/umm_malloc/umm_malloc.cpp.o
+.pio/build/esp12e/FrameworkArduino/umm_malloc/umm_poison.c.o
+.pio/build/esp12e/ld/local.eagle.app.v6.common.ld
+.pio/build/esp12e/lib1b1/libPubSubClient.a
+.pio/build/esp12e/lib1b1/PubSubClient/PubSubClient.cpp.o
+.pio/build/esp12e/lib3f1/libDNSServer.a
+.pio/build/esp12e/lib3f1/DNSServer/DNSServer.cpp.o
+.pio/build/esp12e/lib984/libAdafruit NeoPixel.a
+.pio/build/esp12e/lib984/Adafruit NeoPixel/Adafruit_NeoPixel.cpp.o
+.pio/build/esp12e/lib984/Adafruit NeoPixel/esp.c.o
+.pio/build/esp12e/lib984/Adafruit NeoPixel/esp8266.c.o
+.pio/build/esp12e/lib984/Adafruit NeoPixel/kendyte_k210.c.o
+.pio/build/esp12e/liba5e/libESP8266WiFi.a
+.pio/build/esp12e/liba5e/ESP8266WiFi/BearSSLHelpers.cpp.o
+.pio/build/esp12e/liba5e/ESP8266WiFi/CertStoreBearSSL.cpp.o
+.pio/build/esp12e/liba5e/ESP8266WiFi/enable_wifi_at_boot_time.cpp.o
+.pio/build/esp12e/liba5e/ESP8266WiFi/ESP8266WiFi.cpp.o
+.pio/build/esp12e/liba5e/ESP8266WiFi/ESP8266WiFiAP.cpp.o
+.pio/build/esp12e/liba5e/ESP8266WiFi/ESP8266WiFiGeneric.cpp.o
+.pio/build/esp12e/liba5e/ESP8266WiFi/ESP8266WiFiGratuitous.cpp.o
+.pio/build/esp12e/liba5e/ESP8266WiFi/ESP8266WiFiMulti.cpp.o
+.pio/build/esp12e/liba5e/ESP8266WiFi/ESP8266WiFiScan.cpp.o
+.pio/build/esp12e/liba5e/ESP8266WiFi/ESP8266WiFiSTA-WPS.cpp.o
+.pio/build/esp12e/liba5e/ESP8266WiFi/ESP8266WiFiSTA.cpp.o
+.pio/build/esp12e/liba5e/ESP8266WiFi/WiFiClient.cpp.o
+.pio/build/esp12e/liba5e/ESP8266WiFi/WiFiClientSecureBearSSL.cpp.o
+.pio/build/esp12e/liba5e/ESP8266WiFi/WiFiServer.cpp.o
+.pio/build/esp12e/liba5e/ESP8266WiFi/WiFiServerSecureBearSSL.cpp.o
+.pio/build/esp12e/liba5e/ESP8266WiFi/WiFiUdp.cpp.o
+.pio/build/esp12e/libc7b/libESP8266WebServer.a
+.pio/build/esp12e/libc7b/ESP8266WebServer/detail/mimetable.cpp.o
+.pio/build/esp12e/libe36/libLittleFS.a
+.pio/build/esp12e/libe36/LittleFS/lfs_util.c.o
+.pio/build/esp12e/libe36/LittleFS/lfs.c.o
+.pio/build/esp12e/libe36/LittleFS/LittleFS.cpp.o
+.pio/build/esp12e/src/main.cpp.o
+.pio/libdeps/esp12e/integrity.dat
+.pio/libdeps/esp12e/Adafruit NeoPixel/.piopm
+.pio/libdeps/esp12e/Adafruit NeoPixel/Adafruit_NeoPixel.cpp
+.pio/libdeps/esp12e/Adafruit NeoPixel/Adafruit_NeoPixel.h
+.pio/libdeps/esp12e/Adafruit NeoPixel/CONTRIBUTING.md
+.pio/libdeps/esp12e/Adafruit NeoPixel/COPYING
+.pio/libdeps/esp12e/Adafruit NeoPixel/esp.c
+.pio/libdeps/esp12e/Adafruit NeoPixel/esp8266.c
+.pio/libdeps/esp12e/Adafruit NeoPixel/kendyte_k210.c
+.pio/libdeps/esp12e/Adafruit NeoPixel/keywords.txt
+.pio/libdeps/esp12e/Adafruit NeoPixel/library.properties
+.pio/libdeps/esp12e/Adafruit NeoPixel/README.md
+.pio/libdeps/esp12e/Adafruit NeoPixel/rp2040_pio.h
+.pio/libdeps/esp12e/Adafruit NeoPixel/.github/ISSUE_TEMPLATE.md
+.pio/libdeps/esp12e/Adafruit NeoPixel/.github/PULL_REQUEST_TEMPLATE.md
+.pio/libdeps/esp12e/Adafruit NeoPixel/.github/workflows/githubci.yml
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/buttoncycler/.esp8266.test.skip
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/buttoncycler/buttoncycler.ino
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/RGBWstrandtest/.esp8266.test.skip
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/RGBWstrandtest/.trinket.test.skip
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/RGBWstrandtest/RGBWstrandtest.ino
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/simple/.esp8266.test.skip
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/simple/simple.ino
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/simple_new_operator/.esp8266.test.skip
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/simple_new_operator/simple_new_operator.ino
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/strandtest/.esp8266.test.skip
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/strandtest/strandtest.ino
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/strandtest_nodelay/.esp8266.test.skip
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/strandtest_nodelay/strandtest_nodelay.ino
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/strandtest_wheel/.esp8266.test.skip
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/strandtest_wheel/strandtest_wheel.ino
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/StrandtestArduinoBLE/.none.test.only
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/StrandtestArduinoBLE/StrandtestArduinoBLE.ino
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/StrandtestArduinoBLECallback/.none.test.only
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/StrandtestArduinoBLECallback/StrandtestArduinoBLECallback.ino
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/StrandtestBLE/.none.test.only
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/StrandtestBLE/BLESerial.cpp
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/StrandtestBLE/BLESerial.h
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/StrandtestBLE/StrandtestBLE.ino
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/StrandtestBLE_nodelay/.none.test.only
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/StrandtestBLE_nodelay/BLESerial.cpp
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/StrandtestBLE_nodelay/BLESerial.h
+.pio/libdeps/esp12e/Adafruit NeoPixel/examples/StrandtestBLE_nodelay/StrandtestBLE_nodelay.ino
+.pio/libdeps/esp12e/ArduinoJson/.clang-format
+.pio/libdeps/esp12e/ArduinoJson/.gitattributes
+.pio/libdeps/esp12e/ArduinoJson/.gitignore
+.pio/libdeps/esp12e/ArduinoJson/.mbedignore
+.pio/libdeps/esp12e/ArduinoJson/.piopm
+.pio/libdeps/esp12e/ArduinoJson/.prettierignore
+.pio/libdeps/esp12e/ArduinoJson/appveyor.yml
+.pio/libdeps/esp12e/ArduinoJson/ArduinoJson.h
+.pio/libdeps/esp12e/ArduinoJson/banner.svg
+.pio/libdeps/esp12e/ArduinoJson/CHANGELOG.md
+.pio/libdeps/esp12e/ArduinoJson/CMakeLists.txt
+.pio/libdeps/esp12e/ArduinoJson/component.mk
+.pio/libdeps/esp12e/ArduinoJson/CONTRIBUTING.md
+.pio/libdeps/esp12e/ArduinoJson/keywords.txt
+.pio/libdeps/esp12e/ArduinoJson/library.json
+.pio/libdeps/esp12e/ArduinoJson/library.properties
+.pio/libdeps/esp12e/ArduinoJson/LICENSE.md
+.pio/libdeps/esp12e/ArduinoJson/README.md
+.pio/libdeps/esp12e/ArduinoJson/SUPPORT.md
+.pio/libdeps/esp12e/ArduinoJson/examples/JsonConfigFile/JsonConfigFile.ino
+.pio/libdeps/esp12e/ArduinoJson/examples/JsonFilterExample/JsonFilterExample.ino
+.pio/libdeps/esp12e/ArduinoJson/examples/JsonGeneratorExample/JsonGeneratorExample.ino
+.pio/libdeps/esp12e/ArduinoJson/examples/JsonHttpClient/JsonHttpClient.ino
+.pio/libdeps/esp12e/ArduinoJson/examples/JsonParserExample/JsonParserExample.ino
+.pio/libdeps/esp12e/ArduinoJson/examples/JsonServer/JsonServer.ino
+.pio/libdeps/esp12e/ArduinoJson/examples/JsonUdpBeacon/JsonUdpBeacon.ino
+.pio/libdeps/esp12e/ArduinoJson/examples/MsgPackParser/MsgPackParser.ino
+.pio/libdeps/esp12e/ArduinoJson/examples/ProgmemExample/ProgmemExample.ino
+.pio/libdeps/esp12e/ArduinoJson/examples/StringExample/StringExample.ino
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/CMakeLists.txt
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/compatibility.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Configuration.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Namespace.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/version.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Array/ArrayFunctions.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Array/ArrayImpl.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Array/ArrayIterator.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Array/ArrayRef.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Array/ArrayShortcuts.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Array/Utilities.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationError.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Deserialization/deserialize.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Deserialization/NestingLimit.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Deserialization/Reader.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Deserialization/Readers/ArduinoStreamReader.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Deserialization/Readers/ArduinoStringReader.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Deserialization/Readers/FlashReader.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Deserialization/Readers/IteratorReader.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Deserialization/Readers/RamReader.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Deserialization/Readers/StdStreamReader.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Deserialization/Readers/VariantReader.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Document/JsonDocument.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Json/EscapeSequence.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Json/Latch.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Json/Utf8.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Memory/Alignment.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Misc/SafeBoolIdiom.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Misc/Visitable.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/MsgPack/endianess.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/MsgPack/ieee754.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Numbers/arithmeticCompare.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Numbers/convertNumber.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Numbers/Float.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Numbers/Integer.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Object/ObjectFunctions.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Object/ObjectImpl.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Object/ObjectIterator.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Object/ObjectRef.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Object/ObjectShortcuts.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Object/Pair.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/alias_cast.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/assert.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/attributes.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/ctype.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/integer.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/limits.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/math.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/pgmspace_generic.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/pgmspace.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/preprocessor.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/static_array.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/mpl/max.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/conditional.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/declval.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/enable_if.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/integral_constant.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_array.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_base_of.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_class.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_const.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_convertible.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_enum.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_floating_point.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_integral.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_pointer.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_same.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_signed.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_unsigned.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/make_unsigned.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/make_void.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/remove_const.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/remove_cv.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/remove_reference.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/type_identity.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Serialization/CountingDecorator.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Serialization/measure.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Serialization/serialize.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Serialization/Writer.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Serialization/Writers/ArduinoStringWriter.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Serialization/Writers/PrintWriter.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Serialization/Writers/StaticStringWriter.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStreamWriter.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Strings/IsString.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Strings/StoragePolicy.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Strings/String.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Strings/StringAdapters.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Strings/Adapters/ArduinoString.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Strings/Adapters/FlashString.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Strings/Adapters/JsonString.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Strings/Adapters/StdString.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringView.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/StringStorage/StringStorage.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Variant/Converter.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Variant/VariantRef.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Variant/VariantShortcuts.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Variant/VariantTag.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Variant/VariantTo.hpp
+.pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp
+.pio/libdeps/esp12e/PubSubClient/.gitignore
+.pio/libdeps/esp12e/PubSubClient/.piopm
+.pio/libdeps/esp12e/PubSubClient/.travis.yml
+.pio/libdeps/esp12e/PubSubClient/CHANGES.txt
+.pio/libdeps/esp12e/PubSubClient/keywords.txt
+.pio/libdeps/esp12e/PubSubClient/library.json
+.pio/libdeps/esp12e/PubSubClient/library.properties
+.pio/libdeps/esp12e/PubSubClient/LICENSE.txt
+.pio/libdeps/esp12e/PubSubClient/README.md
+.pio/libdeps/esp12e/PubSubClient/examples/mqtt_auth/mqtt_auth.ino
+.pio/libdeps/esp12e/PubSubClient/examples/mqtt_basic/mqtt_basic.ino
+.pio/libdeps/esp12e/PubSubClient/examples/mqtt_esp8266/mqtt_esp8266.ino
+.pio/libdeps/esp12e/PubSubClient/examples/mqtt_large_message/mqtt_large_message.ino
+.pio/libdeps/esp12e/PubSubClient/examples/mqtt_publish_in_callback/mqtt_publish_in_callback.ino
+.pio/libdeps/esp12e/PubSubClient/examples/mqtt_reconnect_nonblocking/mqtt_reconnect_nonblocking.ino
+.pio/libdeps/esp12e/PubSubClient/examples/mqtt_stream/mqtt_stream.ino
+.pio/libdeps/esp12e/PubSubClient/src/PubSubClient.cpp
