@@ -1,1 +1,5 @@
 .pio/libdeps/esp12e/ArduinoJson/src/ArduinoJson.h
+platformio.ini
+.pio/build/esp12e/FrameworkArduino/flash_hal.cpp.o
+.pio/build/esp12e/FrameworkArduino/FS.cpp.o
+.pio/build/esp12e/FrameworkArduino/FSnoop.cpp.o
