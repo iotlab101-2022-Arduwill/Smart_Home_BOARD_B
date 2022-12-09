@@ -9,7 +9,7 @@
 Adafruit_NeoPixel pixels(ledNum, ledPin, NEO_GRB + NEO_KHZ800);
 
 
-char*               ssid_pfix = (char*)"AdvMQTTRelay";
+char*               ssid_pfix = (char*)"jmMQTTRelay";
 String              user_config_html = ""
   "<p><input type='text' name='mqttServer' placeholder='mqtt Broker'>";
 
@@ -70,7 +70,8 @@ void setup() {
             delay(2000);
         }
     }
-    client.subscribe("id/jihoon/relay/cmd");
+    client.subscribe("id/jongminkim/relay/cmd");
+    client.subscribe("id/jongminkim/light/cmd");
 }
 
 void feeNewLight() {
@@ -90,20 +91,8 @@ void loop() {
         pubStatus();
     }
 
-    feeNewLight();
-   // digitalWrite(RELAY, !digitalRead(RELAY));
-    for(int i = 0; i< ledNum; i++) {
-        int from = (ledNum - i + idx) % ledNum;
-        pixels.setPixelColor(seq[i], pixels.Color(LEDs[from].R,
-                                                  LEDs[from].G,
-                                                  LEDs[from].B));
-    } 
-    pixels.show();
-    delay(1000);
-
-    idx = ++idx > 3 ? 0 : idx;
-
-    Serial.print("RELAY: "); Serial.println(digitalRead(RELAY));
+    // Serial.println(RELAY);
+    // delay(1000);
 }
 
 void pubStatus() {
@@ -113,13 +102,15 @@ void pubStatus() {
     } else {
         sprintf(buf, "off");
     }
-    client.publish("id/jihoon/relay/evt", buf);
+    client.publish("id/jongminkim/relay/evt", buf);
 }
 
 void callback(char* topic, byte* payload, unsigned int length) {
  
     char msgBuffer[20];
-    if(!strcmp(topic, "id/jihoon/relay/cmd")) {
+    char NeoBuffer[20];
+
+    if(!strcmp(topic, "id/jongminkim/relay/cmd")) {
         int i;
         for(i = 0; i < (int)length; i++) {
             msgBuffer[i] = payload[i];
@@ -133,14 +124,14 @@ void callback(char* topic, byte* payload, unsigned int length) {
         }
     }
 
-    if(!strcmp(topic, "id/jihoon/light/cmd")) {
+    else if(!strcmp(topic, "id/jongminkim/light/cmd")) {
         int i;
         for(i = 0; i < (int)length; i++) {
-            msgBuffer[i] = payload[i];
+            NeoBuffer[i] = payload[i];
         } 
-        msgBuffer[i] = '\0';
-        Serial.printf("\n%s -> %s", topic, msgBuffer);
-        if(!strcmp(msgBuffer, "on")) {
+        NeoBuffer[i] = '\0';
+        Serial.printf("\n%s -> %s", topic, NeoBuffer);
+        if(!strcmp(NeoBuffer, "on")) {
             
             feeNewLight();
         // digitalWrite(RELAY, !digitalRead(RELAY));
@@ -155,9 +146,11 @@ void callback(char* topic, byte* payload, unsigned int length) {
 
             idx = ++idx > 3 ? 0 : idx;
 
-        } else if(!strcmp(msgBuffer, "off")) {
+        } else if(!strcmp(NeoBuffer, "off")) {
             pixels.clear();
+            pixels.show();
+            delay(1000);
         }
-    }
+    } 
     pubStatus();
 }

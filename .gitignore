@@ -349,3 +349,40 @@ platformio.ini
 .pio/libdeps/esp12e/PubSubClient/examples/mqtt_reconnect_nonblocking/mqtt_reconnect_nonblocking.ino
 .pio/libdeps/esp12e/PubSubClient/examples/mqtt_stream/mqtt_stream.ino
 .pio/libdeps/esp12e/PubSubClient/src/PubSubClient.cpp
+.pio/build/esp12e/lib230/libESP8266WebServer.a
+.pio/build/esp12e/lib230/ESP8266WebServer/detail/mimetable.cpp.o
+.pio/build/esp12e/lib49b/libPubSubClient.a
+.pio/build/esp12e/lib49b/PubSubClient/PubSubClient.cpp.o
+.pio/build/esp12e/lib807/libLittleFS.a
+.pio/build/esp12e/lib807/LittleFS/lfs_util.c.o
+.pio/build/esp12e/lib807/LittleFS/lfs.c.o
+.pio/build/esp12e/lib807/LittleFS/LittleFS.cpp.o
+.pio/build/esp12e/lib863/libESP8266WiFi.a
+.pio/build/esp12e/lib863/ESP8266WiFi/BearSSLHelpers.cpp.o
+.pio/build/esp12e/lib863/ESP8266WiFi/CertStoreBearSSL.cpp.o
+.pio/build/esp12e/lib863/ESP8266WiFi/enable_wifi_at_boot_time.cpp.o
+.pio/build/esp12e/lib863/ESP8266WiFi/ESP8266WiFi.cpp.o
+.pio/build/esp12e/lib863/ESP8266WiFi/ESP8266WiFiAP.cpp.o
+.pio/build/esp12e/lib863/ESP8266WiFi/ESP8266WiFiGeneric.cpp.o
+.pio/build/esp12e/lib863/ESP8266WiFi/ESP8266WiFiGratuitous.cpp.o
+.pio/build/esp12e/lib863/ESP8266WiFi/ESP8266WiFiMulti.cpp.o
+.pio/build/esp12e/lib863/ESP8266WiFi/ESP8266WiFiScan.cpp.o
+.pio/build/esp12e/lib863/ESP8266WiFi/ESP8266WiFiSTA-WPS.cpp.o
+.pio/build/esp12e/lib863/ESP8266WiFi/ESP8266WiFiSTA.cpp.o
+.pio/build/esp12e/lib863/ESP8266WiFi/WiFiClient.cpp.o
+.pio/build/esp12e/lib863/ESP8266WiFi/WiFiClientSecureBearSSL.cpp.o
+.pio/build/esp12e/lib863/ESP8266WiFi/WiFiServer.cpp.o
+.pio/build/esp12e/lib863/ESP8266WiFi/WiFiServerSecureBearSSL.cpp.o
+.pio/build/esp12e/lib863/ESP8266WiFi/WiFiUdp.cpp.o
+.pio/build/esp12e/libbf2/libDNSServer.a
+.pio/build/esp12e/libbf2/DNSServer/DNSServer.cpp.o
+.pio/build/esp12e/libf7a/libAdafruit NeoPixel.a
+.pio/build/esp12e/libf7a/Adafruit NeoPixel/Adafruit_NeoPixel.cpp.o
+.pio/build/esp12e/libf7a/Adafruit NeoPixel/esp.c.o
+.pio/build/esp12e/libf7a/Adafruit NeoPixel/esp8266.c.o
+.pio/build/esp12e/libf7a/Adafruit NeoPixel/kendyte_k210.c.o
+.vscode/c_cpp_properties.json
+.vscode/extensions.json
+src/main.cpp
+.pio/build/esp12e/lib230/libESP8266WebServer.a
+.vscode/launch.json
