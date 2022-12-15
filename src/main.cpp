@@ -1,7 +1,7 @@
  #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 #include <ConfigPortal8266.h>
-
+#include <MFRC522.h>
 #include <Adafruit_NeoPixel.h>
 #define ledPin 14
 #define ledNum 4
@@ -17,7 +17,7 @@ String              user_config_html = ""
 const char*         mqttServer;
 const int           mqttPort = 1883;
 
-unsigned long       interval = 10000;
+unsigned long       interval = 5000;
 unsigned long       lastPublished = - interval;
  
 struct {
@@ -63,7 +63,7 @@ void setup() {
     while (!client.connected()) {
         Serial.println("Connecting to MQTT...");
  
-        if (client.connect("ESP8266Relay")) {
+        if (client.connect("jongmin_ESP8266Relay")) {
             Serial.println("connected");  
         } else {
             Serial.print("failed with state "); Serial.println(client.state());
